@@ -1,0 +1,2 @@
+- JSX.Element is diffenent from ReactNode
+- SX Element , SX component

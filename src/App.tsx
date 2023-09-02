@@ -3,19 +3,11 @@ import LeftSearchBar from './components/LeftSearchBar'
 import CombainedResults from './components/CombainedResults'
 import RightSearchBar from './components/RightSearchBar'
 
-import data from "./data/entities.json"
-
-console.log(data.data);
-
 function App() {
   const [leftQuery, setLeftQuery] = useState<number>(0)
   const [rightQuery, setRightQuery] = useState<number>(0)
   const getLeftQuery = (id) => { setLeftQuery(parseInt(id)) }
   const getRightQuery = (id) => { setRightQuery(parseInt(id)) }
-
-
-
-
   return (
     <>
       <h1 className=' text-center font-3xl font-bold mt-4'>Three columns app</h1>

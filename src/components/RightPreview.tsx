@@ -31,6 +31,3 @@ function RightPreview({ query }) {
 
 export default RightPreview
 
-
-
-

@@ -57,6 +57,3 @@ function LeftSearchBar({ getQuery }) {
   )
 }
 export default LeftSearchBar
-
-
-

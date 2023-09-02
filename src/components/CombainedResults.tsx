@@ -3,7 +3,6 @@ import RightPreview from './LeftPreview';
 import LeftPreview from './LeftPreview';
 
 function CombainedResults({ leftQuery, rightQuery }) {
-  console.log(leftQuery);
   return (
     <div className='w-full h-[113%] border rounded-sm p-5  flex justify-between'>
       <div>

@@ -11,19 +11,18 @@ function App() {
   return (
     <>
       <h1 className=' text-center font-3xl font-bold mt-4'>Three columns app</h1>
-      <div className='shadow-sm p-5 border max-w-full h-[78vh] mt-[20px] mx-[30px] flex justify-between  rounded-sm'>
-        <div className=" w-[50%] h-[88%]">
+      <div className='shadow-sm p-5 border  md:h-[78vh] h-[130vh]  mt-[20px] md:mx-[30px] mx-[15px] flex flex-wrap gap-2 justify-between  rounded-sm'>
+        <div className=" w-[48%]   md:w-[25%] md:h-[88%] h-[40%] order-1 md:order-normal   ">
           <LeftSearchBar getQuery={getLeftQuery} />
         </div>
-        <div className='w-full h-[88%] mx-3'>
+        <div className='w-full mx-0  md:w-[44%] md:h-[88%]  h-[40%] md:mx-3 order-3 md:order-normal'>
           <CombainedResults leftQuery={leftQuery} rightQuery={rightQuery} />
         </div>
-        <div className="w-[50%] h-[88%]">
+        <div className="w-[48%]  md:w-[25%] md:h-[88%] h-[40%] order-2  md:order-normal">
           <RightSearchBar getQuery={getRightQuery} />
         </div>
       </div>
     </>
-
   )
 }
 
